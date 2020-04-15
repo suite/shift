@@ -1,5 +1,5 @@
 # shift
-Shift is a lightweight color shifter for Spotify
+Shift is a lightweight color shifter for Spotify. Shift will automatically change the colors of the music player based off the album cover.
 
 ### Installation
 Setup:
