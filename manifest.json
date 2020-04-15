@@ -1,0 +1,14 @@
+{
+  "name": "shift",
+  "description": "A lightweight color shifter for Spotify",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["http://*.spotify.com/*", "https://*.spotify.com/*"],
+      "js": ["content.js", "color-thief.min.js"],
+      "css": ["spotifycss.css"],
+      "run_at": "document_end"
+    }
+  ],
+  "manifest_version": 2
+}
